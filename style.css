@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Header Styling */
+body {
+    background-color: #F8F8F2; /* Light beige */
+    color: #424242; /* Dark gray */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    background-color: #D32F2F; /* Bold red */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    margin-bottom: 10px;
+}
+
+.navigation a {
+    color: #FFFFFF;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #B0BEC5; /* Soft gray */
+    border-radius: 5px;
+}
+
+.navigation a:hover {
+    background-color: #D32F2F;
+    color: #FFFFFF;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column; /* Ensure vertical stacking */
+    gap: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+#game-board {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Make sure it spans the full width */
+}
+
+/* Dice Area Styling */
+#dice-area {
+    flex: 2;
+    text-align: center;
+    background-color: #FFFFFF; /* White background */
+    border: 2px solid #B0BEC5; /* Soft gray border */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.dice {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border: 2px solid #424242; /* Dark gray */
+    border-radius: 5px;
+}
+
+#roll-dice {
+    background-color: #D32F2F; /* Bold red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Score Area Styling */
+#score-area {
+    flex: 1;
+    background-color: #B0BEC5; /* Soft gray */
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #424242;
+}
+
+/* Ensure that all info sections are visible */
+.info-section {
+    display: block; /* Make sure they are not hidden */
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid #B0BEC5; /* Soft gray border */
+}
+
+.info-section h2 {
+    color: #D32F2F; /* Bold red */
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
