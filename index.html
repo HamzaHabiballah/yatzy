@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatzy Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Yatzy Game</h1>
+        <nav class="navigation">
+            <a href="#" id="new-game">New Game</a>
+            <a href="#rules-section" id="rules">Rules</a>
+            <a href="#about-section" id="about">About</a>
+            <a href="#statistics-section" id="statistics">Statistics</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="game-board">
+            <section id="dice-area">
+                <h2>Roll the Dice</h2>
+                <div class="dice-container">
+                    <div class="dice" id="dice-1">0</div>
+                    <div class="dice" id="dice-2">0</div>
+                    <div class="dice" id="dice-3">0</div>
+                    <div class="dice" id="dice-4">0</div>
+                    <div class="dice" id="dice-5">0</div>
+                </div>
+                <button id="roll-dice">Roll Dice</button>
+            </section>
+
+            <section id="score-area">
+                <h2>Scoreboard</h2>
+                <table id="scoreboard">
+                    <thead>
+                        <tr><th>Category</th><th>Score</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Ones</td><td id="score-ones">0</td></tr>
+                        <tr><td>Twos</td><td id="score-twos">0</td></tr>
+                        <tr><td>Threes</td><td id="score-threes">0</td></tr>
+                        <tr><td>Fours</td><td id="score-fours">0</td></tr>
+                        <tr><td>Fives</td><td id="score-fives">0</td></tr>
+                        <tr><td>Sixes</td><td id="score-sixes">0</td></tr>
+                        <tr><td>Three of a Kind</td><td id="score-three-kind">0</td></tr>
+                        <tr><td>Four of a Kind</td><td id="score-four-kind">0</td></tr>
+                        <tr><td>Full House</td><td id="score-full-house">0</td></tr>
+                        <tr><td>Small Straight</td><td id="score-small-straight">0</td></tr>
+                        <tr><td>Large Straight</td><td id="score-large-straight">0</td></tr>
+                        <tr><td>Chance</td><td id="score-chance">0</td></tr>
+                        <tr><td>Yatzy</td><td id="score-yatzy">0</td></tr>
+                        <tr><td>Total Score</td><td id="total-score">0</td></tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <section id="rules-section" class="info-section">
+            <h2>Rules</h2>
+            <p>The objective of Yatzy is to score as many points as possible by rolling five dice to make specific combinations.</p>
+            <h3>Gameplay</h3>
+            <p>Each turn allows up to three rolls of the dice, and the player can choose to keep or re-roll any of the dice.</p>
+            <h3>Scoring Combinations</h3>
+            <ul>
+                <li><strong>Ones:</strong> Sum of dice showing 1.</li>
+<li><strong>Twos:</strong> Sum of dice showing 2.</li>
+<li><strong>Threes:</strong> Sum of dice showing 3.</li>
+<li><strong>Fours:</strong> Sum of dice showing 4.</li>
+<li><strong>Fives:</strong> Sum of dice showing 5.</li>
+<li><strong>Sixes:</strong> Sum of dice showing 6.</li>
+<li><strong>Three of a Kind:</strong> Total of all dice if at least three dice show the same number.</li>
+<li><strong>Four of a Kind:</strong> Total of all dice if at least four dice show the same number.</li>
+<li><strong>Full House:</strong> 25 points if the dice show a combination of a pair and a three of a kind.</li>
+<li><strong>Small Straight:</strong> 30 points if the dice show four consecutive numbers (e.g., 1-2-3-4).</li>
+<li><strong>Large Straight:</strong> 40 points if the dice show five consecutive numbers (e.g., 2-3-4-5-6).</li>
+<li><strong>Chance:</strong> Total of all dice.</li>
+<li><strong>Yatzy:</strong> 50 points if all dice show the same number.</li>
+
+            </ul>
+        </section>
+
+        <section id="about-section" class="info-section">
+            <h2>About</h2>
+            <p>Yatzy is a classic dice game that has entertained families and friends for generations. With roots tracing back to various global dice games, it has evolved into a beloved pastime known for its simple yet engaging gameplay. The game has gained widespread popularity due to its perfect blend of strategy, luck, and social interaction, making it enjoyable for players of all ages.</p>
+
+<p>Players roll five dice and try to score points by achieving specific combinations, such as full houses, straights, or the coveted Yatzy (five of a kind). Each turn allows a player up to three rolls to get the best combination for scoring. The game requires skillful decision-making to determine which dice to keep and which to re-roll, balancing risk and reward as the game progresses.</p>
+
+<p>Over the years, Yatzy has seen various adaptations and has been played under different names and rule variations around the world. Whether played casually at home, competitively at game nights, or digitally online, Yatzy remains a timeless game that continues to bring excitement, challenge, and camaraderie to those who play it.</p>
+
+        </section>
+
+        <section id="statistics-section" class="info-section">
+            <h2>Statistics</h2>
+            <button id="clear-stats">Clear Statistics</button>
+            
+        </section>
+    </footer>
+
+    <!-- Linking JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
