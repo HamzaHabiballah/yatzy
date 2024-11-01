@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +6,10 @@
     font-family: Arial, sans-serif;
 }
 
-/* Body and Header Styling */
+
 body {
-    background-color: #F8F8F2; /* Light beige */
-    color: #424242; /* Dark gray */
+    background-color: #F8F8F2; 
+    color: #424242; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #D32F2F; /* Bold red */
+    background-color: #D32F2F; 
     color: white;
     padding: 20px;
     width: 100%;
@@ -40,7 +40,7 @@ header h1 {
     text-decoration: none;
     font-weight: bold;
     padding: 5px 10px;
-    background-color: #B0BEC5; /* Soft gray */
+    background-color: #B0BEC5; 
     border-radius: 5px;
 }
 
@@ -49,10 +49,10 @@ header h1 {
     color: #FFFFFF;
 }
 
-/* Main Content Styling */
+
 main {
     display: flex;
-    flex-direction: column; /* Ensure vertical stacking */
+    flex-direction: column; 
     gap: 20px;
     padding: 20px;
     width: 80%;
@@ -62,15 +62,15 @@ main {
 #game-board {
     display: flex;
     justify-content: space-between;
-    width: 100%; /* Make sure it spans the full width */
+    width: 100%; 
 }
 
 /* Dice Area Styling */
 #dice-area {
     flex: 2;
     text-align: center;
-    background-color: #FFFFFF; /* White background */
-    border: 2px solid #B0BEC5; /* Soft gray border */
+    background-color: #FFFFFF; 
+    border: 2px solid #B0BEC5; 
     border-radius: 10px;
     padding: 20px;
 }
@@ -85,18 +85,18 @@ main {
 .dice {
     width: 50px;
     height: 50px;
-    background-color: #FFFFFF; /* White */
-    color: #000000; /* Black */
+    background-color: #FFFFFF; 
+    color: #000000; 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
-    border: 2px solid #424242; /* Dark gray */
+    border: 2px solid #424242; 
     border-radius: 5px;
 }
 
 #roll-dice {
-    background-color: #D32F2F; /* Bold red */
+    background-color: #D32F2F; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -106,27 +106,27 @@ main {
     margin-top: 10px;
 }
 
-/* Score Area Styling */
+
 #score-area {
     flex: 1;
-    background-color: #B0BEC5; /* Soft gray */
+    background-color: #B0BEC5; 
     padding: 15px;
     border-radius: 10px;
     border: 2px solid #424242;
 }
 
-/* Ensure that all info sections are visible */
+
 .info-section {
-    display: block; /* Make sure they are not hidden */
+    display: block; 
     background-color: #FFFFFF;
     padding: 15px;
     border-radius: 5px;
     margin-top: 20px;
-    border: 2px solid #B0BEC5; /* Soft gray border */
+    border: 2px solid #B0BEC5; 
 }
 
 .info-section h2 {
-    color: #D32F2F; /* Bold red */
+    color: #D32F2F; 
     margin-bottom: 10px;
 }
 

@@ -167,6 +167,7 @@ class YatzyGame {
         document.getElementById('total-score').textContent = '0';
         alert('Statistics have been cleared.');
     }
+    
 }
 
 // Initialize the game
